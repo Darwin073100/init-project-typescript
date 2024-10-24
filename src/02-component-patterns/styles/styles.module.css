@@ -27,16 +27,15 @@
 
 .buttonMinus {
     cursor: pointer;
-    background-color: rgb(255, 103, 103);
+    background-color: transparent;
     border: 1px solid black;
     border-radius: 5px 0px 0px 5px;
     font-size: 20px;
     width: 30px;
-    transition: background-color 0.2s;
 }
 
 .buttonMinus:hover {
-    background-color: rgb(248, 133, 133);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .countLabel {
@@ -51,14 +50,13 @@
 
 .buttonAdd {
     cursor: pointer;
-    background-color: rgb(103, 144, 255);
+    background-color: transparent;
     border: 1px solid black;
     border-radius: 0px 5px 5px 0px;
     font-size: 20px;
     width: 30px;
-    transition: background-color 0.2s;
 }
 
 .buttonAdd:hover {
-    background-color: rgb(130, 179, 253);
+    background-color: rgba(0, 0, 0, 0.1);
 }
